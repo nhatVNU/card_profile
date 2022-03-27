@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+@-webkit-keyframes my {
+    0% { color: #ba1fe9; } 
+    50% { color: #fff;  } 
+    100% { color: #ba1fe9;  } 
+}
+@-moz-keyframes my { 
+    0% { color: #ba1fe9;  } 
+    50% { color: #fff;  }
+    100% { color: #ba1fe9;  } 
+}
+@-o-keyframes my { 
+    0% { color: #ba1fe9; } 
+    50% { color: #fff; } 
+    100% { color: #ba1fe9;  } 
+}
+@keyframes my { 
+    0% { color: #ba1fe9;  } 
+    50% { color: #fff;  }
+    100% { color: #ba1fe9;  } 
+} 
+.test {
+        background:#fff;
+        font-size:24px;
+        font-weight:bold;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
+}
+*{
+    font-size: 17px ;
+
+}
